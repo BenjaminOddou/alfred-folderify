@@ -478,7 +478,7 @@ ______________________</string>
 				<key>sortmode</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>Loading png files...</string>
+				<string>Start writing to find png files</string>
 				<key>title</key>
 				<string>Choose the mask to create the icon</string>
 				<key>types</key>
@@ -582,7 +582,7 @@ ______________________</string>
 				<key>sortmode</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>Loading folders...</string>
+				<string>Start writing to find folders</string>
 				<key>title</key>
 				<string>Choose folder(s) you want to modify the icon of</string>
 				<key>types</key>
@@ -904,7 +904,7 @@ ______________________</string>
 				<key>sortmode</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>Loading png files...</string>
+				<string>Start writing to find png files</string>
 				<key>title</key>
 				<string>Choose mask(s) to create icon(s)</string>
 				<key>types</key>
@@ -1574,8 +1574,10 @@ Check the logs of the folderify command under the `Data folder`. The log file co
 			<string>verbose</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/BenjaminOddou/alfred-folderify</string>
 </dict>
