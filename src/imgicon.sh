@@ -1,5 +1,13 @@
 #!/bin/zsh
 
+function handle_error {
+    source ./notificator --title "🚨 Error" --message "An error occurred! Exiting script.." --sound "$sound"
+    exit 1
+}
+
+trap "handle_error" ERR
+
+(source ./notificator --title "⏳ Please wait..." --message "The workflow is generating icons" --sound "$sound") &
 declare -A info_os
 info_os=([""]="Auto 🍏" ["--macOS 11.0"]="Big Sur 🍌" ["--macOS 10.10"]="Yosemite 🍒" ["--macOS 10.5"]="Leopard 🍊")
 echo "🖼️ Folder icon style : $(echo $info_os[$folder_icon_style])"
@@ -22,3 +30,7 @@ for MASK in "${MASKS[@]}"; do
         2>&1 eval "folderify $PARAMS \"$MASK\""
     fi
 done
+
+if [[ $workflow_action = "_notif" ]];then
+    source ./notificator --title "⌛ Finished" --message "Process completed. You can check the log file" --sound "$sound"
+fi

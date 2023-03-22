@@ -20,16 +20,6 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>0F722189-A602-438D-A6E6-3C8D2090821B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 		</array>
 		<key>026FB7C2-0015-43DC-B4C0-8D3B2A88BCF8</key>
 		<array>
@@ -110,16 +100,6 @@
 		</array>
 		<key>25C55849-BA71-4A59-BE08-0FF9B2A3284B</key>
 		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>0F722189-A602-438D-A6E6-3C8D2090821B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>13A89185-F404-441A-B8F7-8AC12156DF6E</string>
@@ -277,17 +257,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>4880ED4D-CA10-4589-A999-29C0640CA870</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>E5B4DA4C-D0E3-4CC6-82A2-0106B4B6716B</string>
+				<string>FDAE9882-A31A-41D3-B139-B87DD370B22E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -300,17 +270,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>21D82DF2-BE59-4426-9AC2-B0D271814740</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>4880ED4D-CA10-4589-A999-29C0640CA870</string>
+				<string>FDAE9882-A31A-41D3-B139-B87DD370B22E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -332,6 +292,33 @@
 				<false/>
 			</dict>
 		</array>
+		<key>FDAE9882-A31A-41D3-B139-B87DD370B22E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3EA3E5D1-D902-4884-A548-7CA8BD56F5B9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>858CBA9A-76BF-4F4E-AB3A-16789D3C48CF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>BCA150CD-967E-4FD0-A659-C8D490C1C95B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>E483B0E6-5E1E-4F8E-BE08-F61FB4E857AB</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Benjamin Oddou</string>
@@ -343,27 +330,6 @@
 	<string>Folderify</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{var:data_folder}/logs_{var:trigger_1}.txt</string>
-				<key>title</key>
-				<string>See the logs here 📃</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>21D82DF2-BE59-4426-9AC2-B0D271814740</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -674,42 +640,17 @@ ______________________</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{var:data_folder}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<true/>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>{query}</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>4880ED4D-CA10-4589-A999-29C0640CA870</string>
+			<string>3EA3E5D1-D902-4884-A548-7CA8BD56F5B9</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>the workflow is generating icons, please wait till the end.</string>
-				<key>title</key>
-				<string>Loading icons... ⏳</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>0F722189-A602-438D-A6E6-3C8D2090821B</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -733,6 +674,52 @@ ______________________</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:workflow_action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>_open</string>
+						<key>outputlabel</key>
+						<string>open</string>
+						<key>uid</key>
+						<string>858CBA9A-76BF-4F4E-AB3A-16789D3C48CF</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:workflow_action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>_reveal</string>
+						<key>outputlabel</key>
+						<string>reveal</string>
+						<key>uid</key>
+						<string>E483B0E6-5E1E-4F8E-BE08-F61FB4E857AB</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>FDAE9882-A31A-41D3-B139-B87DD370B22E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string>{query}</string>
 				<key>passthroughargument</key>
@@ -747,6 +734,19 @@ ______________________</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>DD46D6F8-00CE-42B7-8F49-7DC79B48DAA3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.revealfile</string>
+			<key>uid</key>
+			<string>BCA150CD-967E-4FD0-A659-C8D490C1C95B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -800,27 +800,6 @@ ______________________</string>
 			<string>alfred.workflow.output.writefile</string>
 			<key>uid</key>
 			<string>F5B76F0B-083B-418E-A1F4-6D19C8A7E510</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{var:data_folder}/logs_{var:trigger_2}.txt</string>
-				<key>title</key>
-				<string>See the logs here 📃</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>E5B4DA4C-D0E3-4CC6-82A2-0106B4B6716B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1046,16 +1025,25 @@ ______________________</string>
 
 ✨ *Generate pixel-perfect macOS folder icons* ✨
 
-![workflow](./images/workflow.webp)
+## 🏎️ Folderify
 
-## ✅ Prerequisite
+Under the hood, the icon generation is made with [folderify](https://github.com/lgarron/folderify) made by [Lucas Garron](https://github.com/lgarron).
 
-* 🍎 MacOS.
-* 🎩 Alfred 5. Note that the [Alfred Powerpack](https://www.alfredapp.com/powerpack/) is required to use workflows.
+## 🧰 Setup the workflow
 
-## ℹ️ information
+### Install dependencies
 
-* 🏎️ Under the hood, the icon generation is made with [folderify](https://github.com/lgarron/folderify) made by [Lucas Garron](https://github.com/lgarron).
+#### Open the Terminal of you Mac and run the following commands
+
+1. Install Homebrew.
+
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+2. Install folderify.
+
+`brew install folderify`
+
+Note that you have [other installation options](https://github.com/lgarron/folderify#other-installation-options) for folderify
 
 ## 🧙‍♂️ Invoke the Workflow
 
@@ -1064,149 +1052,11 @@ There is 2 flows in this workflow :
 1. The first one allows you to assign an generated icon to one or multiple folder(s). It can be triggered by writing `foldicon` keyword.
 2. The second allows you to generate `mask.icns` and `mask.iconset` files from one or multiple mask(s). You can invoke this flow with the `imgicon` keyword.
 
-You can change these values by changing the `🕹️ Trigger 1` or `🕹️ Trigger 2` variables in workflow configuration panel [optionnal]. Please avoid putting the same trigger for the two flows.
-
-## 🧰 Setup the workflow
-
-### 👨‍💻 Install dependencies
-
-#### Open the Terminal of you Mac and run the following commands
-
-1. ☑️ Install Homebrew.
-
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-
-2. ☑️ Install folderify.
-
-`brew install folderify`
-
-💡 Note that you have [other installation options](https://github.com/lgarron/folderify#other-installation-options) for folderify
-
-### 📂 Data (Logs) folder
-
-❗ This variable cannot be empty. You can change it at your convenience in the workflow configuration panel.
-
-It contains the output logs generated by folderify.
-
-💡 Note that if you change the `Data folder` location after generating logs, you should probably move the files created along in the new folder.
+You can edit these triggers (flagged with a `🕹️` symbol) in the user configuration panel.
 
 ## 🤖 Usage of the workflow
 
-### ⚒️ Setup variables
-
-All of the following variables correspond to a folderify argument. Check the original [folderify documentation](https://github.com/lgarron/folderify#full-options) if you need more details.
-
-1. `🖼️ Folder icon style` correspond to the `--macOS VERSION` folderify argument and allows you to change the style of the icon folder. Here are the current available styles from all macOS versions :
-
-`Auto 🍏` : will detect your system version and apply the correct settings.
-
-`Big Sur 🍌` : --macOS 11.0 and above.
-
-![big_sur_light](./images/big_sur_light.webp)
-
-`Yosemite 🍒` : --macOS ["10.10", "10.11", "10.12", "10.13", "10.14", "10.15"].
-
-![yosemite](./images/yosemite.webp)
-
-`Leopard 🍊` : --macOS ["10.5", "10.6", "10.7", "10.8", "10.9"].
-
-![leopard](./images/leopard.webp)
-
-2. `🎨 Color scheme` correspond to the `--color-scheme COLOR_SCHEME` folderify argument and allows you to change the color of the icon folder (slight difference). 
-
-`🌓 Auto` : will match current system settings.
-
-`🌑 Dark` : --color-scheme dark will force dark mode.
-
-![big_sur_dark](./images/big_sur_dark.webp)
-
-`🌕 Light` : --color-scheme light will force light mode.
-
-![big_sur_light](./images/big_sur_light.webp)
-
-💡 Note that the --color-scheme argument is only avalaible for `Big Sur 🍌` (--macOS 11.0) and above.
-
-3. `✂️ Trim margins` corresponds to the `--no-trim` folderify argument.
-
-`Yes 👍` : transparent margins are trimmed from all 4 sides.
-
-![big_sur_dark](./images/big_sur_dark.webp)
-
-`No 👎` : --no-trim. Keeps transparent margins from the mask.
-
-![no_trim](./images/no_trim.webp)
-
-Here is a small schema to explain the principle :
-
-![schema_trim](./images/schema_trim.webp)
-
-4. `📃 Ouput format` : corresponds to the `--verbose` folderify argument. 
-
-`Simple 🔭` : simple output.
-
-![log_simple](./images/log_simple.webp)
-
-`Detailed 🔬` : --verbose. Detail output.
-
-![log_detailed](./images/log_detailed.webp)
-
-### 🔥 Modify icons folders
-
-Launch the first flow with the `🕹️ Trigger 1`, choose the folder you want to modify and press ⏎.
-
-![trigger1_1](./images/trigger1_1.webp)
-
-Choose the mask that will be used for generating the new icon and press ⏎.
-
-![trigger1_2](./images/trigger1_2.webp)
-
-### 💧 Generate icns and iconset files
-
-Launch the second flow with the `🕹️ Trigger 2`, choose the mask you want to modify and press ⏎.
-
-![trigger2_1](./images/trigger2_1.webp)
-
-### 🎩 Alfred Buffer and Universal Actions
-
-For both flows, you can use the `Alfred Buffer` to select multiple folder(s) (flow 1) or maks(s) (flow 2).
-
-`Alfred Buffer` basic commands are :
-
-* ⌥↑ to add a file to the buffer from Alfred's results.
-* ⌥↓ to add a file and move to the next item in your list of results.
-* ⌥← to remove the last item from the buffer.
-* ⌥→ to action all items in the buffer.
-* ⌥⌫ to remove all items from the buffer.
-
-To know more on how to use `Alfred Buffer`, follow this [link](https://www.alfredapp.com/help/features/file-search/#file-buffer).
-
-💡 Note that `Alfred Buffer` is preferred compare to the `{query}`, meaning that if you select a folder/image (by clicking on it or by pressing enter ⏎) that is not included in the buffer, **it will not be compressed**.
-
-![alfred_buffer1](./images/alfred_buffer1.webp)
-
-![alfred_buffer2](./images/alfred_buffer2.webp)
-
-For both flows you can use the corresponding `Alfred Universal Actions` :
-
-1. If you want to start the first flow, select one or multiple folders and select `Modify folder icon`.
-
-![universal1](./images/universal1.webp)
-
-2. If you want to start the second flow, select one or multiple folders and select `Create folder icon from mask`.
-
-![universal2](./images/universal2.webp)
-
-### 📃 Logs output
-
-Check the logs of the folderify command under the `Data folder`. The log file contains the 3 parts :
-1. Date and time of the workflow launch.
-2. Workflow options.
-3. Folderify command detailed.
-4. Folderify output.
-
-💡 Note that each workflow run is separated by a line.
-
-![log_simple](./images/log_simple.webp)
+Go to the dedicated [GitHub repository](https://github.com/BenjaminOddou/alfred-folderify) page to check the documentation
 
 © Benjamin Oddou</string>
 	<key>uidata</key>
@@ -1214,182 +1064,167 @@ Check the logs of the folderify command under the `Data folder`. The log file co
 		<key>0034CFD2-C135-49CE-A092-3084365ACFAB</key>
 		<dict>
 			<key>xpos</key>
-			<real>700</real>
+			<real>785</real>
 			<key>ypos</key>
-			<real>15</real>
+			<real>175</real>
 		</dict>
 		<key>026FB7C2-0015-43DC-B4C0-8D3B2A88BCF8</key>
 		<dict>
-			<key>note</key>
-			<string>Please submit issues and feature requests at https://github.com/BenjaminOddou/alfred-folderify</string>
 			<key>xpos</key>
-			<real>30</real>
+			<real>115</real>
 			<key>ypos</key>
-			<real>645</real>
+			<real>585</real>
 		</dict>
 		<key>0C91EEF8-20C4-421C-8194-668AA132FA74</key>
 		<dict>
 			<key>xpos</key>
-			<real>210</real>
+			<real>295</real>
 			<key>ypos</key>
-			<real>60</real>
-		</dict>
-		<key>0F722189-A602-438D-A6E6-3C8D2090821B</key>
-		<dict>
-			<key>xpos</key>
-			<real>905</real>
-			<key>ypos</key>
-			<real>215</real>
+			<real>220</real>
 		</dict>
 		<key>1344D134-8F96-45A1-B1FF-0C8B12A57768</key>
 		<dict>
 			<key>xpos</key>
-			<real>460</real>
+			<real>545</real>
 			<key>ypos</key>
-			<real>460</real>
+			<real>485</real>
 		</dict>
 		<key>13A89185-F404-441A-B8F7-8AC12156DF6E</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<real>905</real>
+			<real>990</real>
 			<key>ypos</key>
-			<real>425</real>
+			<real>450</real>
 		</dict>
 		<key>19E6E24A-594C-4C2F-9F70-6B97E70B4862</key>
 		<dict>
-			<key>note</key>
-			<string>Please submit issues and feature requests at https://github.com/BenjaminOddou/alfred-folderify</string>
 			<key>xpos</key>
-			<real>30</real>
+			<real>115</real>
 			<key>ypos</key>
-			<real>235</real>
-		</dict>
-		<key>21D82DF2-BE59-4426-9AC2-B0D271814740</key>
-		<dict>
-			<key>xpos</key>
-			<real>1300</real>
-			<key>ypos</key>
-			<real>15</real>
+			<real>315</real>
 		</dict>
 		<key>25C55849-BA71-4A59-BE08-0FF9B2A3284B</key>
 		<dict>
 			<key>xpos</key>
-			<real>695</real>
+			<real>780</real>
 			<key>ypos</key>
-			<real>455</real>
+			<real>480</real>
 		</dict>
 		<key>29E77443-10BE-470C-9525-A2801F010E13</key>
 		<dict>
 			<key>xpos</key>
-			<real>290</real>
+			<real>375</real>
 			<key>ypos</key>
-			<real>440</real>
+			<real>465</real>
 		</dict>
 		<key>2A29B494-A73D-42C1-A35D-09901E0A39CC</key>
 		<dict>
 			<key>xpos</key>
-			<real>290</real>
+			<real>375</real>
 			<key>ypos</key>
-			<real>30</real>
+			<real>190</real>
 		</dict>
-		<key>4880ED4D-CA10-4589-A999-29C0640CA870</key>
+		<key>3EA3E5D1-D902-4884-A548-7CA8BD56F5B9</key>
 		<dict>
 			<key>xpos</key>
-			<real>1305</real>
+			<real>1510</real>
 			<key>ypos</key>
-			<real>215</real>
+			<real>245</real>
 		</dict>
 		<key>52652AC5-44FF-4F2D-B998-3EFB7911C499</key>
 		<dict>
 			<key>xpos</key>
-			<real>210</real>
+			<real>295</real>
 			<key>ypos</key>
-			<real>470</real>
+			<real>495</real>
 		</dict>
 		<key>74486CAF-13DD-421E-B52D-79BA07B691EB</key>
 		<dict>
 			<key>xpos</key>
-			<real>575</real>
+			<real>660</real>
 			<key>ypos</key>
-			<real>675</real>
+			<real>615</real>
 		</dict>
 		<key>845B2574-2C5F-4DD3-8407-DD9B017C7B2E</key>
 		<dict>
 			<key>xpos</key>
-			<real>575</real>
+			<real>660</real>
 			<key>ypos</key>
-			<real>455</real>
+			<real>480</real>
 		</dict>
 		<key>89772932-A78F-46F6-9ADD-27507D8A5112</key>
 		<dict>
-			<key>note</key>
-			<string>Please submit issues and feature requests at https://github.com/BenjaminOddou/alfred-folderify</string>
 			<key>xpos</key>
-			<real>30</real>
+			<real>115</real>
 			<key>ypos</key>
-			<real>30</real>
+			<real>190</real>
 		</dict>
 		<key>B0018DB6-21A5-4306-B25B-1A8B8CE5A1C1</key>
 		<dict>
 			<key>xpos</key>
-			<real>460</real>
+			<real>545</real>
 			<key>ypos</key>
-			<real>50</real>
+			<real>210</real>
+		</dict>
+		<key>BCA150CD-967E-4FD0-A659-C8D490C1C95B</key>
+		<dict>
+			<key>xpos</key>
+			<real>1510</real>
+			<key>ypos</key>
+			<real>365</real>
 		</dict>
 		<key>C3775C3E-5C00-420F-BB9C-BD34B9A4AA9E</key>
 		<dict>
 			<key>xpos</key>
-			<real>575</real>
+			<real>660</real>
 			<key>ypos</key>
-			<real>45</real>
+			<real>205</real>
 		</dict>
 		<key>C6D82242-189B-4269-9BB5-9170EA9C21C2</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<real>905</real>
+			<real>990</real>
 			<key>ypos</key>
-			<real>15</real>
+			<real>175</real>
 		</dict>
 		<key>DD46D6F8-00CE-42B7-8F49-7DC79B48DAA3</key>
 		<dict>
 			<key>xpos</key>
-			<real>575</real>
+			<real>660</real>
 			<key>ypos</key>
-			<real>265</real>
-		</dict>
-		<key>E5B4DA4C-D0E3-4CC6-82A2-0106B4B6716B</key>
-		<dict>
-			<key>xpos</key>
-			<real>1300</real>
-			<key>ypos</key>
-			<real>425</real>
+			<real>345</real>
 		</dict>
 		<key>F5B76F0B-083B-418E-A1F4-6D19C8A7E510</key>
 		<dict>
 			<key>xpos</key>
-			<real>1100</real>
+			<real>1185</real>
 			<key>ypos</key>
-			<real>425</real>
+			<real>450</real>
 		</dict>
 		<key>F609F008-1F69-466D-AC7B-B15523288B25</key>
 		<dict>
 			<key>xpos</key>
-			<real>1100</real>
+			<real>1185</real>
 			<key>ypos</key>
-			<real>15</real>
+			<real>175</real>
 		</dict>
 		<key>FBAEAB4C-92D2-44B9-A2E6-335C83CAB744</key>
 		<dict>
-			<key>note</key>
-			<string>Please submit issues and feature requests at https://github.com/BenjaminOddou/alfred-folderify</string>
 			<key>xpos</key>
-			<real>30</real>
+			<real>115</real>
 			<key>ypos</key>
-			<real>440</real>
+			<real>465</real>
+		</dict>
+		<key>FDAE9882-A31A-41D3-B139-B87DD370B22E</key>
+		<dict>
+			<key>xpos</key>
+			<real>1380</real>
+			<key>ypos</key>
+			<real>325</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -1573,11 +1408,127 @@ Check the logs of the folderify command under the `Data folder`. The log file co
 			<key>variable</key>
 			<string>verbose</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>_open</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Open log file 🟢</string>
+						<string>_open</string>
+					</array>
+					<array>
+						<string>Reveal log file in finder 🔵</string>
+						<string>_reveal</string>
+					</array>
+					<array>
+						<string>Display a notification 🟡</string>
+						<string>_notif</string>
+					</array>
+					<array>
+						<string>Do nothing 🔴</string>
+						<string></string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Choose output action.</string>
+			<key>label</key>
+			<string>🔫 Workflow action</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>workflow_action</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>Submarine</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Mute 🔕</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Submarine 🤿</string>
+						<string>Submarine</string>
+					</array>
+					<array>
+						<string>Pop 🎉</string>
+						<string>Pop</string>
+					</array>
+					<array>
+						<string>Ping ✨</string>
+						<string>Ping</string>
+					</array>
+					<array>
+						<string>Purr 🐯</string>
+						<string>Purr</string>
+					</array>
+					<array>
+						<string>Hero ⚔️</string>
+						<string>Hero</string>
+					</array>
+					<array>
+						<string>Funk 🕺</string>
+						<string>Funk</string>
+					</array>
+					<array>
+						<string>Basso 🎧</string>
+						<string>Basso</string>
+					</array>
+					<array>
+						<string>Sosumi 📻</string>
+						<string>Sosumi</string>
+					</array>
+					<array>
+						<string>Glass 🍸</string>
+						<string>Glass</string>
+					</array>
+					<array>
+						<string>Blow 💨</string>
+						<string>Blow</string>
+					</array>
+					<array>
+						<string>Bottle 🍼</string>
+						<string>Bottle</string>
+					</array>
+					<array>
+						<string>Frog 🐸</string>
+						<string>Frog</string>
+					</array>
+					<array>
+						<string>Tink 🛎️</string>
+						<string>Tink</string>
+					</array>
+					<array>
+						<string>Morse ♨️</string>
+						<string>Morse</string>
+					</array>
+					<array>
+						<string>Classic 😃</string>
+						<string>default</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Workflow notification sound.</string>
+			<key>label</key>
+			<string>🎷 Notification Sound</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>sound</string>
+		</dict>
 	</array>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/BenjaminOddou/alfred-folderify</string>
 </dict>
