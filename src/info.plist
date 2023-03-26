@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.benjamino.folderify</string>
-	<key>category</key>
-	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>0034CFD2-C135-49CE-A092-3084365ACFAB</key>
@@ -454,13 +452,6 @@ ______________________</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
-			<key>inboundconfig</key>
-			<dict>
-				<key>externalid</key>
-				<string>{query}</string>
-				<key>usecustominputarg</key>
-				<true/>
-			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
@@ -569,7 +560,7 @@ ______________________</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query}</string>
+				<string></string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
@@ -592,7 +583,7 @@ ______________________</string>
 				<array>
 					<dict>
 						<key>inputstring</key>
-						<string>{query}</string>
+						<string></string>
 						<key>matchcasesensitive</key>
 						<false/>
 						<key>matchmode</key>
@@ -621,7 +612,7 @@ ______________________</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query}</string>
+				<string></string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
@@ -721,7 +712,7 @@ ______________________</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query}</string>
+				<string></string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
@@ -912,7 +903,7 @@ ______________________</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query}</string>
+				<string></string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
@@ -935,7 +926,7 @@ ______________________</string>
 				<array>
 					<dict>
 						<key>inputstring</key>
-						<string>{query}</string>
+						<string></string>
 						<key>matchcasesensitive</key>
 						<false/>
 						<key>matchmode</key>
@@ -964,7 +955,7 @@ ______________________</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query}</string>
+				<string></string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
@@ -1003,7 +994,7 @@ ______________________</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query}</string>
+				<string></string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
@@ -1031,10 +1022,6 @@ Under the hood, the icon generation is made with [folderify](https://github.com/
 
 ## 🧰 Setup the workflow
 
-### Install dependencies
-
-#### Open the Terminal of you Mac and run the following commands
-
 1. Install Homebrew.
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
@@ -1045,7 +1032,7 @@ Under the hood, the icon generation is made with [folderify](https://github.com/
 
 Note that you have [other installation options](https://github.com/lgarron/folderify#other-installation-options) for folderify
 
-## 🧙‍♂️ Invoke the Workflow
+## 🧙‍♂️ Invoke the workflow
 
 There is 2 flows in this workflow :
 
@@ -1057,6 +1044,10 @@ You can edit these triggers (flagged with a `🕹️` symbol) in the user config
 ## 🤖 Usage of the workflow
 
 Go to the dedicated [GitHub repository](https://github.com/BenjaminOddou/alfred-folderify) page to check the documentation
+
+### Reset icon folder
+
+To reset a folder’s icon, open its Get Info panel then click the icon and press ⌫.
 
 © Benjamin Oddou</string>
 	<key>uidata</key>
@@ -1244,7 +1235,7 @@ Go to the dedicated [GitHub repository](https://github.com/BenjaminOddou/alfred-
 			<key>description</key>
 			<string>The folder that holds all the generated log files.</string>
 			<key>label</key>
-			<string>📂 Data Folder</string>
+			<string>📂 Data folder</string>
 			<key>type</key>
 			<string>filepicker</string>
 			<key>variable</key>
@@ -1518,7 +1509,7 @@ Go to the dedicated [GitHub repository](https://github.com/BenjaminOddou/alfred-
 			<key>description</key>
 			<string>Workflow notification sound.</string>
 			<key>label</key>
-			<string>🎷 Notification Sound</string>
+			<string>🎷 Notification sound</string>
 			<key>type</key>
 			<string>popupbutton</string>
 			<key>variable</key>
@@ -1528,7 +1519,7 @@ Go to the dedicated [GitHub repository](https://github.com/BenjaminOddou/alfred-
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.2</string>
+	<string>1.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/BenjaminOddou/alfred-folderify</string>
 </dict>

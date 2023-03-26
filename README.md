@@ -40,7 +40,7 @@ brew install folderify
 
 > Note that you have [other installation options](https://github.com/lgarron/folderify#other-installation-options) for folderify
 
-## 🧙‍♂️ Invoke the Workflow
+## 🧙‍♂️ Invoke the workflow
 
 There is 2 flows in this workflow :
 
@@ -124,6 +124,10 @@ Here is a small schema to explain the principle :
 Choose the mask that will be used for generating the new icon and press ⏎.
 
 ![trigger1_2](public/trigger1_2.webp)
+
+### Reset icon folder
+
+To reset a folder’s icon, open its Get Info panel then click the icon and press ⌫.
 
 ### Generate icns and iconset files
 
