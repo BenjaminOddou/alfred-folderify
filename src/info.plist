@@ -1393,7 +1393,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 			<key>description</key>
 			<string>Control wether your prefer detailed logs or not.</string>
 			<key>label</key>
-			<string>📃 Ouput format</string>
+			<string>📃 Output format</string>
 			<key>type</key>
 			<string>popupbutton</string>
 			<key>variable</key>
