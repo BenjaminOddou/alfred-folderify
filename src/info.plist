@@ -1022,11 +1022,7 @@ Under the hood, the icon generation is made with [folderify](https://github.com/
 
 ## 🧰 Setup the workflow
 
-1. Install Homebrew.
-
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-
-2. Install folderify.
+Install folderify (using [Homebrew](https://brew.sh)) :
 
 `brew install folderify`
 
@@ -1034,7 +1030,7 @@ Note that you have [other installation options](https://github.com/lgarron/folde
 
 ## 🧙‍♂️ Invoke the workflow
 
-There is 2 flows in this workflow :
+There are 2 flows in this workflow :
 
 1. The first one allows you to assign an generated icon to one or multiple folder(s). It can be triggered by writing `foldicon` keyword.
 2. The second allows you to generate `mask.icns` and `mask.iconset` files from one or multiple mask(s). You can invoke this flow with the `imgicon` keyword.
@@ -1516,10 +1512,8 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 			<string>sound</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>1.3</string>
+	<string>1.3.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/BenjaminOddou/alfred-folderify</string>
 </dict>

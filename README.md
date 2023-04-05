@@ -26,13 +26,7 @@ Under the hood, the icon generation is made with [folderify](https://github.com/
 
 #### Open the Terminal of you Mac and run the following commands
 
-1. Install Homebrew.
-
-```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-2. Install folderify.
+Install folderify (using [Homebrew](https://brew.sh)) :
 
 ```shell
 brew install folderify
@@ -42,7 +36,7 @@ brew install folderify
 
 ## 🧙‍♂️ Invoke the workflow
 
-There is 2 flows in this workflow :
+There are 2 flows in this workflow :
 
 1. The first one allows you to assign an generated icon to one or multiple folder(s). It can be triggered by writing `foldicon` keyword.
 2. The second allows you to generate `mask.icns` and `mask.iconset` files from one or multiple mask(s). You can invoke this flow with the `imgicon` keyword.
@@ -57,7 +51,7 @@ You can edit these triggers (flagged with a `🕹️` symbol) in the user config
 
 > Note that if you change the `Data folder` location after generating logs, you should probably move the file created along in the new folder.
 
-2. `🖼️ Folder icon style` correspond to the `--macOS VERSION` folderify argument and allows you to change the style of the icon folder. Here are the current available styles from all macOS versions :
+2. `🖼️ Folder icon style` corresponds to the `--macOS VERSION` folderify argument and allows you to change the style of the icon folder. Here are the current available styles from all macOS versions :
 
 `Auto 🍏` : will detect your system version and apply the correct settings.
 
@@ -73,7 +67,7 @@ You can edit these triggers (flagged with a `🕹️` symbol) in the user config
 
 ![leopard](public/leopard.webp)
 
-3. `🎨 Color scheme` correspond to the `--color-scheme COLOR_SCHEME` folderify argument and allows you to change the color of the icon folder (slight difference). 
+3. `🎨 Color scheme` corresponds to the `--color-scheme COLOR_SCHEME` folderify argument and allows you to change the color of the icon folder (slight difference). 
 
 `🌓 Auto` : will match current system settings.
 
@@ -85,7 +79,7 @@ You can edit these triggers (flagged with a `🕹️` symbol) in the user config
 
 ![big_sur_light](public/big_sur_light.webp)
 
-> Note that the --color-scheme argument is only avalaible for `Big Sur 🍌` (--macOS 11.0) and above.
+> Note that the --color-scheme argument is only available for `Big Sur 🍌` (--macOS 11.0) and above.
 
 4. `✂️ Trim margins` corresponds to the `--no-trim` folderify argument.
 
@@ -101,7 +95,7 @@ Here is a small schema to explain the principle :
 
 ![schema_trim](public/schema_trim.webp)
 
-5. `📃 Ouput format` : corresponds to the `--verbose` folderify argument. 
+5. `📃 Output format` : corresponds to the `--verbose` folderify argument. 
 
 `Simple 🔭` : simple output.
 
@@ -137,7 +131,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 
 ### Alfred Buffer and Universal Actions
 
-For both flows, you can use the `Alfred Buffer` to select multiple folder(s) (flow 1) or maks(s) (flow 2).
+For both flows, you can use the `Alfred Buffer` to select multiple folder(s) (flow 1) or mask(s) (flow 2).
 
 `Alfred Buffer` basic commands are :
 
@@ -149,7 +143,7 @@ For both flows, you can use the `Alfred Buffer` to select multiple folder(s) (fl
 
 To know more on how to use `Alfred Buffer`, follow this [link](https://www.alfredapp.com/help/features/file-search/#file-buffer).
 
-> Note that `Alfred Buffer` is preferred compare to the `{query}`, meaning that if you select a folder/image (by clicking on it or by pressing enter ⏎) that is not included in the buffer, **it will not be compressed**.
+> Note that `Alfred Buffer` is preferred compared to the `{query}`, meaning that if you select a folder/image (by clicking on it or by pressing enter ⏎) that is not included in the buffer, **it will not be compressed**.
 
 ![alfred_buffer1](public/alfred_buffer1.webp)
 
