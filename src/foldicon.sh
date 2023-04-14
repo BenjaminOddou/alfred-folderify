@@ -19,7 +19,7 @@ info_margins=([""]="Yes 👍" ["--no-trim"]="No 👎")
 echo "✂️ Trim margins : $(echo $info_margins[$trim_margins])"
 declare -A info_output
 info_output=([""]="Simple 🔭" ["--verbose"]="Detailed 🔬")
-echo "📃 Ouput format : $(echo $info_output[$verbose])"
+echo "📃 Output format : $(echo $info_output[$verbose])"
 
 FOLDERS=(${(s/	/)_folders_list}) # split by tab
 PARAMS=$(awk '{$1=$1};NF' <<< "$folder_icon_style $color_scheme $trim_margins $verbose")
