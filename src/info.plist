@@ -1051,167 +1051,167 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 		<key>0034CFD2-C135-49CE-A092-3084365ACFAB</key>
 		<dict>
 			<key>xpos</key>
-			<real>785</real>
+			<real>725</real>
 			<key>ypos</key>
-			<real>175</real>
+			<real>90</real>
 		</dict>
 		<key>026FB7C2-0015-43DC-B4C0-8D3B2A88BCF8</key>
 		<dict>
 			<key>xpos</key>
-			<real>115</real>
+			<real>55</real>
 			<key>ypos</key>
-			<real>585</real>
+			<real>500</real>
 		</dict>
 		<key>0C91EEF8-20C4-421C-8194-668AA132FA74</key>
 		<dict>
 			<key>xpos</key>
-			<real>295</real>
+			<real>235</real>
 			<key>ypos</key>
-			<real>220</real>
+			<real>135</real>
 		</dict>
 		<key>1344D134-8F96-45A1-B1FF-0C8B12A57768</key>
 		<dict>
 			<key>xpos</key>
-			<real>545</real>
-			<key>ypos</key>
 			<real>485</real>
+			<key>ypos</key>
+			<real>400</real>
 		</dict>
 		<key>13A89185-F404-441A-B8F7-8AC12156DF6E</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<real>990</real>
+			<real>930</real>
 			<key>ypos</key>
-			<real>450</real>
+			<real>365</real>
 		</dict>
 		<key>19E6E24A-594C-4C2F-9F70-6B97E70B4862</key>
 		<dict>
 			<key>xpos</key>
-			<real>115</real>
+			<real>55</real>
 			<key>ypos</key>
-			<real>315</real>
+			<real>230</real>
 		</dict>
 		<key>25C55849-BA71-4A59-BE08-0FF9B2A3284B</key>
 		<dict>
 			<key>xpos</key>
-			<real>780</real>
+			<real>720</real>
 			<key>ypos</key>
-			<real>480</real>
+			<real>395</real>
 		</dict>
 		<key>29E77443-10BE-470C-9525-A2801F010E13</key>
 		<dict>
 			<key>xpos</key>
-			<real>375</real>
+			<real>315</real>
 			<key>ypos</key>
-			<real>465</real>
+			<real>380</real>
 		</dict>
 		<key>2A29B494-A73D-42C1-A35D-09901E0A39CC</key>
 		<dict>
 			<key>xpos</key>
-			<real>375</real>
+			<real>315</real>
 			<key>ypos</key>
-			<real>190</real>
+			<real>105</real>
 		</dict>
 		<key>3EA3E5D1-D902-4884-A548-7CA8BD56F5B9</key>
 		<dict>
 			<key>xpos</key>
-			<real>1510</real>
+			<real>1450</real>
 			<key>ypos</key>
-			<real>245</real>
+			<real>160</real>
 		</dict>
 		<key>52652AC5-44FF-4F2D-B998-3EFB7911C499</key>
 		<dict>
 			<key>xpos</key>
-			<real>295</real>
+			<real>235</real>
 			<key>ypos</key>
-			<real>495</real>
+			<real>410</real>
 		</dict>
 		<key>74486CAF-13DD-421E-B52D-79BA07B691EB</key>
 		<dict>
 			<key>xpos</key>
-			<real>660</real>
+			<real>600</real>
 			<key>ypos</key>
-			<real>615</real>
+			<real>530</real>
 		</dict>
 		<key>845B2574-2C5F-4DD3-8407-DD9B017C7B2E</key>
 		<dict>
 			<key>xpos</key>
-			<real>660</real>
+			<real>600</real>
 			<key>ypos</key>
-			<real>480</real>
+			<real>395</real>
 		</dict>
 		<key>89772932-A78F-46F6-9ADD-27507D8A5112</key>
 		<dict>
 			<key>xpos</key>
-			<real>115</real>
+			<real>55</real>
 			<key>ypos</key>
-			<real>190</real>
+			<real>105</real>
 		</dict>
 		<key>B0018DB6-21A5-4306-B25B-1A8B8CE5A1C1</key>
 		<dict>
 			<key>xpos</key>
-			<real>545</real>
+			<real>485</real>
 			<key>ypos</key>
-			<real>210</real>
+			<real>125</real>
 		</dict>
 		<key>BCA150CD-967E-4FD0-A659-C8D490C1C95B</key>
 		<dict>
 			<key>xpos</key>
-			<real>1510</real>
+			<real>1450</real>
 			<key>ypos</key>
-			<real>365</real>
+			<real>280</real>
 		</dict>
 		<key>C3775C3E-5C00-420F-BB9C-BD34B9A4AA9E</key>
 		<dict>
 			<key>xpos</key>
-			<real>660</real>
+			<real>600</real>
 			<key>ypos</key>
-			<real>205</real>
+			<real>120</real>
 		</dict>
 		<key>C6D82242-189B-4269-9BB5-9170EA9C21C2</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<real>990</real>
+			<real>930</real>
 			<key>ypos</key>
-			<real>175</real>
+			<real>90</real>
 		</dict>
 		<key>DD46D6F8-00CE-42B7-8F49-7DC79B48DAA3</key>
 		<dict>
 			<key>xpos</key>
-			<real>660</real>
+			<real>600</real>
 			<key>ypos</key>
-			<real>345</real>
+			<real>260</real>
 		</dict>
 		<key>F5B76F0B-083B-418E-A1F4-6D19C8A7E510</key>
 		<dict>
 			<key>xpos</key>
-			<real>1185</real>
+			<real>1125</real>
 			<key>ypos</key>
-			<real>450</real>
+			<real>365</real>
 		</dict>
 		<key>F609F008-1F69-466D-AC7B-B15523288B25</key>
 		<dict>
 			<key>xpos</key>
-			<real>1185</real>
+			<real>1125</real>
 			<key>ypos</key>
-			<real>175</real>
+			<real>90</real>
 		</dict>
 		<key>FBAEAB4C-92D2-44B9-A2E6-335C83CAB744</key>
 		<dict>
 			<key>xpos</key>
-			<real>115</real>
+			<real>55</real>
 			<key>ypos</key>
-			<real>465</real>
+			<real>380</real>
 		</dict>
 		<key>FDAE9882-A31A-41D3-B139-B87DD370B22E</key>
 		<dict>
 			<key>xpos</key>
-			<real>1380</real>
+			<real>1320</real>
 			<key>ypos</key>
-			<real>325</real>
+			<real>240</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -1287,40 +1287,6 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				<key>pairs</key>
 				<array>
 					<array>
-						<string>Auto 🍏</string>
-						<string></string>
-					</array>
-					<array>
-						<string>Big Sur 🍌</string>
-						<string>--macOS 11.0</string>
-					</array>
-					<array>
-						<string>Yosemite 🍒</string>
-						<string>--macOS 10.10</string>
-					</array>
-					<array>
-						<string>Leopard 🍊</string>
-						<string>--macOS 10.5</string>
-					</array>
-				</array>
-			</dict>
-			<key>description</key>
-			<string>Set the folder icon style (the default is your current macOS version).</string>
-			<key>label</key>
-			<string>🖼️ Folder icon style</string>
-			<key>type</key>
-			<string>popupbutton</string>
-			<key>variable</key>
-			<string>folder_icon_style</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<string></string>
-				<key>pairs</key>
-				<array>
-					<array>
 						<string>Auto 🌓</string>
 						<string></string>
 					</array>
@@ -1335,7 +1301,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				</array>
 			</dict>
 			<key>description</key>
-			<string>Set the folder icon color scheme. By default, it uses your system's current light/dark mode. (only available for macOS 11.0 - Big Sur or later)</string>
+			<string>Set the folder icon color scheme. By default, it uses your system's current light/dark mode.</string>
 			<key>label</key>
 			<string>🎨 Color scheme</string>
 			<key>type</key>
@@ -1513,7 +1479,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.3.1</string>
+	<string>1.4.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/BenjaminOddou/alfred-folderify</string>
 </dict>

@@ -8,9 +8,6 @@ function handle_error {
 trap "handle_error" ERR
 
 (source ./notificator --title "⏳ Please wait..." --message "The workflow is generating icons" --sound "$sound") &
-declare -A info_os
-info_os=([""]="Auto 🍏" ["--macOS 11.0"]="Big Sur 🍌" ["--macOS 10.10"]="Yosemite 🍒" ["--macOS 10.5"]="Leopard 🍊")
-echo "🖼️ Folder icon style : $(echo $info_os[$folder_icon_style])"
 declare -A info_scheme
 info_scheme=([""]="Auto 🌓" ["--color-scheme dark"]="Dark 🌑" ["--color-scheme light"]="Light 🌕")
 echo "🎨 Color scheme : $(echo $info_scheme[$color_scheme])"

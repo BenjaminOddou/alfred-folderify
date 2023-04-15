@@ -51,23 +51,7 @@ You can edit these triggers (flagged with a `🕹️` symbol) in the user config
 
 > Note that if you change the `Data folder` location after generating logs, you should probably move the file created along in the new folder.
 
-2. `🖼️ Folder icon style` corresponds to the `--macOS VERSION` folderify argument and allows you to change the style of the icon folder. Here are the current available styles from all macOS versions :
-
-`Auto 🍏` : will detect your system version and apply the correct settings.
-
-`Big Sur 🍌` : --macOS 11.0 and above.
-
-![big_sur_light](public/big_sur_light.webp)
-
-`Yosemite 🍒` : --macOS ["10.10", "10.11", "10.12", "10.13", "10.14", "10.15"].
-
-![yosemite](public/yosemite.webp)
-
-`Leopard 🍊` : --macOS ["10.5", "10.6", "10.7", "10.8", "10.9"].
-
-![leopard](public/leopard.webp)
-
-3. `🎨 Color scheme` corresponds to the `--color-scheme COLOR_SCHEME` folderify argument and allows you to change the color of the icon folder (slight difference). 
+2. `🎨 Color scheme` corresponds to the `--color-scheme COLOR_SCHEME` folderify argument and allows you to change the color of the icon folder (slight difference). 
 
 `🌓 Auto` : will match current system settings.
 
@@ -81,7 +65,7 @@ You can edit these triggers (flagged with a `🕹️` symbol) in the user config
 
 > Note that the --color-scheme argument is only available for `Big Sur 🍌` (--macOS 11.0) and above.
 
-4. `✂️ Trim margins` corresponds to the `--no-trim` folderify argument.
+3. `✂️ Trim margins` corresponds to the `--no-trim` folderify argument.
 
 `Yes 👍` : transparent margins are trimmed from all 4 sides.
 
@@ -95,7 +79,7 @@ Here is a small schema to explain the principle :
 
 ![schema_trim](public/schema_trim.webp)
 
-5. `📃 Output format` : corresponds to the `--verbose` folderify argument. 
+4. `📃 Output format` : corresponds to the `--verbose` folderify argument. 
 
 `Simple 🔭` : simple output.
 
@@ -105,9 +89,11 @@ Here is a small schema to explain the principle :
 
 ![log_detailed](public/log_detailed.webp)
 
-6. `🔫 Workflow action`. Open/Reveal in finder the log file, display a post notification or do nothing.
+5. `🔫 Workflow action`. Open/Reveal in finder the log file, display a post notification or do nothing.
 
-7. `🎷 Notification sound`. Set notification sound for this workflow.
+6. `🎷 Notification sound`. Set notification sound for this workflow.
+
+> As of version 1.4.0, this is no longer possible to generate old folder style (leopard / yosemite). You can still download v2 of folderify [here](https://pypi.org/project/folderify/).
 
 ### Modify icons folders
 
