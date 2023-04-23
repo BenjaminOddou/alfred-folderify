@@ -63,15 +63,13 @@ You can edit these triggers (flagged with a `🕹️` symbol) in the user config
 
 ![big_sur_light](public/big_sur_light.webp)
 
-> Note that the --color-scheme argument is only available for `Big Sur 🍌` (--macOS 11.0) and above.
+1. `✂️ Trim margins` corresponds to the `--no-trim` folderify argument.
 
-3. `✂️ Trim margins` corresponds to the `--no-trim` folderify argument.
-
-`Yes 👍` : transparent margins are trimmed from all 4 sides.
+`Yes 👍` : checkbox is ticked, transparent margins are trimmed from all 4 sides.
 
 ![big_sur_dark](public/big_sur_dark.webp)
 
-`No 👎` : --no-trim. Keeps transparent margins from the mask.
+`No 👎` : checkbox is unticked, --no-trim. Keeps transparent margins from the mask.
 
 ![no_trim](public/no_trim.webp)
 
@@ -79,19 +77,19 @@ Here is a small schema to explain the principle :
 
 ![schema_trim](public/schema_trim.webp)
 
-4. `📃 Output format` : corresponds to the `--verbose` folderify argument. 
+4. `📃 Detailed Logs` : corresponds to the `--verbose` folderify argument. 
 
-`Simple 🔭` : simple output.
-
-![log_simple](public/log_simple.webp)
-
-`Detailed 🔬` : --verbose, detailed output.
+`Yes 👍` : checkbox is ticked, --verbose, detailed output.
 
 ![log_detailed](public/log_detailed.webp)
 
-5. `🔫 Workflow action`. Open/Reveal in finder the log file, display a post notification or do nothing.
+`No 👎` : checkbox is unticked, simple output.
 
-6. `🎷 Notification sound`. Set notification sound for this workflow.
+![log_simple](public/log_simple.webp)
+
+1. `🔫 Workflow action`. Open/Reveal in finder the log file, display a post notification or do nothing.
+
+2. `🎷 Notification sound`. Set notification sound for this workflow.
 
 > As of version 1.4.0, this is no longer possible to generate old folder style (leopard / yosemite). You can still download v2 of folderify [here](https://pypi.org/project/folderify/).
 
@@ -153,7 +151,7 @@ Check the logs of the folderify command under the `📂 Data folder`. The log fi
 3. Folderify command detailed.
 4. Folderify output.
 
-> Note that each workflow run is separated by a line.
+> Note that each workflow run is separated by an horizontal rule.
 
 ![log_simple](public/log_simple.webp)
 

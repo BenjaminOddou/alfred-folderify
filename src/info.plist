@@ -1229,7 +1229,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>The folder that holds all the generated log files.</string>
+			<string>the folder that holds all the generated log files.</string>
 			<key>label</key>
 			<string>📂 Data folder</string>
 			<key>type</key>
@@ -1250,7 +1250,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>Keyword that launches the first flow</string>
+			<string>keyword that launches the first flow.</string>
 			<key>label</key>
 			<string>🕹️ Trigger 1</string>
 			<key>type</key>
@@ -1271,7 +1271,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>Keyword that launches the second flow.</string>
+			<string>keyword that launches the second flow.</string>
 			<key>label</key>
 			<string>🕹️ Trigger 2</string>
 			<key>type</key>
@@ -1301,7 +1301,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				</array>
 			</dict>
 			<key>description</key>
-			<string>Set the folder icon color scheme. By default, it uses your system's current light/dark mode.</string>
+			<string>set the folder icon color scheme. By default, it uses your system's current light/dark mode.</string>
 			<key>label</key>
 			<string>🎨 Color scheme</string>
 			<key>type</key>
@@ -1313,25 +1313,18 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
 				<string></string>
-				<key>pairs</key>
-				<array>
-					<array>
-						<string>Yes 👍</string>
-						<string></string>
-					</array>
-					<array>
-						<string>No 👎</string>
-						<string>--no-trim</string>
-					</array>
-				</array>
 			</dict>
 			<key>description</key>
-			<string>If 'No' is selected, margins won't be trimmed. By default, transparent margins are trimmed from all 4 sides.</string>
+			<string>if unticked, margins won't be trimmed.</string>
 			<key>label</key>
 			<string>✂️ Trim margins</string>
 			<key>type</key>
-			<string>popupbutton</string>
+			<string>checkbox</string>
 			<key>variable</key>
 			<string>trim_margins</string>
 		</dict>
@@ -1339,25 +1332,18 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
 				<string></string>
-				<key>pairs</key>
-				<array>
-					<array>
-						<string>Simple 🔭</string>
-						<string></string>
-					</array>
-					<array>
-						<string>Detailed 🔬</string>
-						<string>--verbose</string>
-					</array>
-				</array>
 			</dict>
 			<key>description</key>
-			<string>Control whether you prefer detailed logs or not.</string>
+			<string>control whether you prefer detailed logs or not.</string>
 			<key>label</key>
-			<string>📃 Output format</string>
+			<string>📃 Detailed Logs</string>
 			<key>type</key>
-			<string>popupbutton</string>
+			<string>checkbox</string>
 			<key>variable</key>
 			<string>verbose</string>
 		</dict>
@@ -1387,7 +1373,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				</array>
 			</dict>
 			<key>description</key>
-			<string>Choose output action.</string>
+			<string>choose output action.</string>
 			<key>label</key>
 			<string>🔫 Workflow action</string>
 			<key>type</key>
@@ -1469,7 +1455,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				</array>
 			</dict>
 			<key>description</key>
-			<string>Workflow notification sound.</string>
+			<string>workflow notification sound.</string>
 			<key>label</key>
 			<string>🎷 Notification sound</string>
 			<key>type</key>
@@ -1479,7 +1465,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.4.0</string>
+	<string>1.4.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/BenjaminOddou/alfred-folderify</string>
 </dict>
