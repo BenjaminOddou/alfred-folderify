@@ -1229,7 +1229,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>the folder that holds all the generated log files.</string>
+			<string>The folder that holds all the generated log files.</string>
 			<key>label</key>
 			<string>📂 Data folder</string>
 			<key>type</key>
@@ -1250,7 +1250,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>keyword that launches the first flow.</string>
+			<string>Keyword that launches the first flow.</string>
 			<key>label</key>
 			<string>🕹️ Trigger 1</string>
 			<key>type</key>
@@ -1271,7 +1271,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>keyword that launches the second flow.</string>
+			<string>Keyword that launches the second flow.</string>
 			<key>label</key>
 			<string>🕹️ Trigger 2</string>
 			<key>type</key>
@@ -1301,9 +1301,9 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				</array>
 			</dict>
 			<key>description</key>
-			<string>set the folder icon color scheme. By default, it uses your system's current light/dark mode.</string>
+			<string>Set the folder icon color scheme. By default, it uses your system's current light/dark mode.</string>
 			<key>label</key>
-			<string>🎨 Color scheme</string>
+			<string>🎨 Color Scheme</string>
 			<key>type</key>
 			<string>popupbutton</string>
 			<key>variable</key>
@@ -1320,9 +1320,9 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				<string></string>
 			</dict>
 			<key>description</key>
-			<string>if unticked, margins won't be trimmed.</string>
+			<string>If unticked, margins won't be trimmed.</string>
 			<key>label</key>
-			<string>✂️ Trim margins</string>
+			<string>✂️ Trim Margins</string>
 			<key>type</key>
 			<string>checkbox</string>
 			<key>variable</key>
@@ -1339,7 +1339,7 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				<string></string>
 			</dict>
 			<key>description</key>
-			<string>control whether you prefer detailed logs or not.</string>
+			<string>Control whether you prefer detailed logs or not.</string>
 			<key>label</key>
 			<string>📃 Detailed Logs</string>
 			<key>type</key>
@@ -1373,9 +1373,9 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				</array>
 			</dict>
 			<key>description</key>
-			<string>choose output action.</string>
+			<string>Choose output action.</string>
 			<key>label</key>
-			<string>🔫 Workflow action</string>
+			<string>🔫 Workflow Action</string>
 			<key>type</key>
 			<string>popupbutton</string>
 			<key>variable</key>
@@ -1455,9 +1455,9 @@ To reset a folder’s icon, open its Get Info panel then click the icon and pres
 				</array>
 			</dict>
 			<key>description</key>
-			<string>workflow notification sound.</string>
+			<string>Workflow notification sound.</string>
 			<key>label</key>
-			<string>🎷 Notification sound</string>
+			<string>🎷 Notification Sound</string>
 			<key>type</key>
 			<string>popupbutton</string>
 			<key>variable</key>
